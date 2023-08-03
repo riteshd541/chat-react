@@ -1,0 +1,35 @@
+.MessageInput {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.MessageInput input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.MessageInput button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px; /* Add margin to the right */
+  margin-bottom: 5px; /* Add margin to the bottom */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.MessageInput button:hover {
+  background-color: #0056b3;
+}

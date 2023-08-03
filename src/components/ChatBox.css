@@ -1,0 +1,21 @@
+/* Add this to align messages to the left */
+.Message {
+  text-align: left;
+}
+
+/* Add this to position the send button at the bottom */
+.MessageInput {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.ChatBox {
+  height: 600px; /* Set the desired height for the chat box */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 2px solid #ccc;
+  background-color: #cceeff;
+}
